@@ -11688,11 +11688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 2.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 2.csproj",
       "projectName": "ST10101067 APPR6312 POE PART 2",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 2.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 2.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

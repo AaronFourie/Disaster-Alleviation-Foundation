@@ -9,125 +9,125 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ST10101067_APPR6312_POE_PART_2
 build_property.RootNamespace = ST10101067_APPR6312_POE_PART_2
-build_property.ProjectDir = C:\Users\User\Source\Repos\APPR6312_POE\ST10101067 APPR6312 POE PART 2\
+build_property.ProjectDir = C:\Users\User\source\repos\APPR6312_POE\ST10101067 APPR6312 POE PART 1\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\Source\Repos\APPR6312_POE\ST10101067 APPR6312 POE PART 2
+build_property.MSBuildProjectDirectory = C:\Users\User\source\repos\APPR6312_POE\ST10101067 APPR6312 POE PART 1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/Admins/Create.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/Admins/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/Admins/Crud.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/Admins/Crud.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5zXENydWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/Home/Index.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/Shared/Error.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/UserDisasters/Create.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/UserDisasters/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRpc2FzdGVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/UserDisasters/Delete.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/UserDisasters/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRpc2FzdGVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/UserDisasters/Edit.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/UserDisasters/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRpc2FzdGVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/UserDisasters/Index.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/UserDisasters/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRpc2FzdGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/UserGoodsDonations/Create.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/UserGoodsDonations/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckdvb2RzRG9uYXRpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/UserGoodsDonations/Delete.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/UserGoodsDonations/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckdvb2RzRG9uYXRpb25zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/UserGoodsDonations/Edit.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/UserGoodsDonations/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckdvb2RzRG9uYXRpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/UserGoodsDonations/Index.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/UserGoodsDonations/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckdvb2RzRG9uYXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/UserMoneyDonations/Create.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/UserMoneyDonations/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1vbmV5RG9uYXRpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/UserMoneyDonations/Delete.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/UserMoneyDonations/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1vbmV5RG9uYXRpb25zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/UserMoneyDonations/Edit.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/UserMoneyDonations/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1vbmV5RG9uYXRpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/UserMoneyDonations/Index.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/UserMoneyDonations/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1vbmV5RG9uYXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/_ViewImports.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/_ViewStart.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/APPR6312_POE/ST10101067 APPR6312 POE PART 2/Views/Shared/_Layout.cshtml]
+[C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jbnjgw6ave
