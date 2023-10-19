@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data;
 
-namespace ST10101067_APPR6312_POE_PART_1.Models
+namespace ST10101067_APPR6312_POE_PART_2.Models
 {
     public class Disaster
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ST10101067_APPR6312_POE_PART_1.Models
+namespace ST10101067_APPR6312_POE_PART_2.Models
 {
     public class Admin
     {

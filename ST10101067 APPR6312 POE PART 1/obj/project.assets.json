@@ -11688,9 +11688,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1.csproj",
-      "projectName": "ST10101067 APPR6312 POE PART 1",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 2.csproj",
+      "projectName": "ST10101067 APPR6312 POE PART 2",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 2.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\obj\\",
       "projectStyle": "PackageReference",

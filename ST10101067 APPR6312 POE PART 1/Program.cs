@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using ST10101067_APPR6312_POE_PART_1;
+using ST10101067_APPR6312_POE_PART_2;
 
 var builder = WebApplication.CreateBuilder(args);
 

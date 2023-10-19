@@ -7,12 +7,12 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using ST10101067_APPR6312_POE_PART_1;
-using ST10101067_APPR6312_POE_PART_1.Models;
+using ST10101067_APPR6312_POE_PART_2;
+using ST10101067_APPR6312_POE_PART_2.Models;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
-namespace ST10101067_APPR6312_POE_PART_1.Controllers
+namespace ST10101067_APPR6312_POE_PART_2.Controllers
 {
     public class UserGoodsDonationsController : Controller
     {

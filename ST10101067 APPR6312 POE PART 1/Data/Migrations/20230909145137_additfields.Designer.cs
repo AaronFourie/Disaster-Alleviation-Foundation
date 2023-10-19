@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ST10101067_APPR6312_POE_PART_1;
+using ST10101067_APPR6312_POE_PART_2;
 
 #nullable disable
 
-namespace ST10101067_APPR6312_POE_PART_1.Data.Migrations
+namespace ST10101067_APPR6312_POE_PART_2.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20230909145137_additfields")]

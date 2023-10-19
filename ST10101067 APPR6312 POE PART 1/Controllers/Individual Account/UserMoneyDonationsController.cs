@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using ST10101067_APPR6312_POE_PART_1;
-using ST10101067_APPR6312_POE_PART_1.Models;
+using ST10101067_APPR6312_POE_PART_2;
+using ST10101067_APPR6312_POE_PART_2.Models;
 
-namespace ST10101067_APPR6312_POE_PART_1.Controllers
+namespace ST10101067_APPR6312_POE_PART_2.Controllers
 {
     public class UserMoneyDonationsController : Controller
     {
