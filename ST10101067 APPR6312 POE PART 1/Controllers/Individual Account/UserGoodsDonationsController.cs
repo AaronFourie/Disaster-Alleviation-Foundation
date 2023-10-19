@@ -181,7 +181,8 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
                 return Problem("Entity set 'ApplicationDbContext.GoodsDonation'  is null.");
             }
             var goodsDonation = await _context.GoodsDonation.FindAsync(id);
-            if (goodsDonation != null || goodsDonation.USERNAME != @User.Identity.Name)
+            if (goodsDonation != null || goodsDonation.USERNAME != 
+                @User.Identity.Name)
             {
                 _context.GoodsDonation.Remove(goodsDonation);
             }
