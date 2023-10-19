@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\APPR POE PART 1.props" />
+</Project>

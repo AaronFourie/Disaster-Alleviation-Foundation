@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ST10101067_APPR6312_POE_PART_1.Models.Disaster>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.STARTDATE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ENDDATE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LOCATION)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AID_TYPE)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.STARTDATE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ENDDATE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LOCATION)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AID_TYPE)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.DISTATER_ID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.DISTATER_ID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.DISTATER_ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>
