@@ -6,10 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ST10101067_APPR6312_POE_PART_2;
+using Microsoft.AspNetCore.Authorization;
 using ST10101067_APPR6312_POE_PART_2.Models;
 
 namespace ST10101067_APPR6312_POE_PART_2.Controllers
 {
+    
     public class UserMoneyDonationsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -20,6 +22,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserMoneyDonations
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             if (!@User.Identity.IsAuthenticated)
@@ -40,6 +43,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserMoneyDonations/Details/5
+        [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.MoneyDonation == null)
@@ -58,6 +62,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserMoneyDonations/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -68,6 +73,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Create([Bind("MONEY_DONATION_ID,USERNAME,DATE,AMOUNT,DONOR")] MoneyDonation moneyDonation)
         {
             if (ModelState.IsValid)
@@ -96,6 +102,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserMoneyDonations/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.MoneyDonation == null)
@@ -117,6 +124,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Edit(int id, [Bind("MONEY_DONATION_ID,USERNAME,DATE,AMOUNT,DONOR")] MoneyDonation moneyDonation)
         {
             if (id != moneyDonation.MONEY_DONATION_ID)
@@ -154,6 +162,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserMoneyDonations/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.MoneyDonation == null)
@@ -174,6 +183,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         // POST: UserMoneyDonations/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.MoneyDonation == null)

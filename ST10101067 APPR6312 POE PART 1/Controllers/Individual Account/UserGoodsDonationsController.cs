@@ -5,6 +5,7 @@ using System.Net.NetworkInformation;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ST10101067_APPR6312_POE_PART_2;
@@ -14,6 +15,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ST10101067_APPR6312_POE_PART_2.Controllers
 {
+    
     public class UserGoodsDonationsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -24,6 +26,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserGoodsDonations
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             if (!@User.Identity.IsAuthenticated)
@@ -44,6 +47,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserGoodsDonations/Details/5
+        [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.GoodsDonation == null)
@@ -62,6 +66,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserGoodsDonations/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -71,6 +76,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("GOODS_DONATION_ID, USERNAME, DATE,ITEM_COUNT,CATEGORY,DESCRIPTION,DONOR")] GoodsDonation goodsDonation)
         {
@@ -96,6 +102,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserGoodsDonations/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.GoodsDonation == null)
@@ -117,6 +124,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Edit(int id, [Bind("GOODS_DONATION_ID,USERNAME,DATE,ITEM_COUNT,CATEGORY,DESCRIPTION,DONOR")] GoodsDonation goodsDonation)
         {
             if (id != goodsDonation.GOODS_DONATION_ID)
@@ -154,6 +162,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserGoodsDonations/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.GoodsDonation == null)
@@ -174,6 +183,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         // POST: UserGoodsDonations/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.GoodsDonation == null)

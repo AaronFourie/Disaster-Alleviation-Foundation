@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.NetworkInformation;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -23,6 +24,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserDisasters
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             if (!@User.Identity.IsAuthenticated)
@@ -43,6 +45,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserDisasters/Details/5
+        [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Disatser == null)
@@ -61,6 +64,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserDisasters/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -70,6 +74,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("DISTATER_ID,USERNAME,STARTDATE,ENDDATE,LOCATION,AID_TYPE")] Disaster disaster)
         {
@@ -89,6 +94,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserDisasters/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Disatser == null)
@@ -111,6 +117,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("DISTATER_ID,USERNAME,STARTDATE,ENDDATE,LOCATION,AID_TYPE")] Disaster disaster)
         {
@@ -151,6 +158,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserDisasters/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Disatser == null)
@@ -172,6 +180,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
 
         // POST: UserDisasters/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
