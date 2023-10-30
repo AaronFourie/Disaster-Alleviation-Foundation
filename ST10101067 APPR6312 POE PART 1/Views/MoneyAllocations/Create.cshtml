@@ -1,0 +1,28 @@
+﻿@model ST10101067_APPR6312_POE_PART_2.Models.MoneyAllocation
+
+@{
+    ViewData["Title"] = "Create Money Allocation";
+}
+<div class="container">
+<p>Remaining Money: @ViewBag.RemainingMoney.ToString("C")</p>
+<p>Total Allocated: @ViewBag.Total.ToString("C")</p>
+
+<h1>Create Money Allocation</h1>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="DisasterId">Choose Disaster Aid to allocate towards</label>
+        <select asp-for="DisasterId" asp-items="@ViewBag.DisasterTypes" class="form-control"></select>
+    </div>
+    <!-- Hidden input for AidType -->
+    <input type="hidden" asp-for="AidType" />
+    <div class="form-group">
+        <label asp-for="AllocationAmount"></label>
+        <input asp-for="AllocationAmount" class="form-control" />
+        <span asp-validation-for="AllocationAmount" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+<a asp-action="Index">Back to List</a>
+</div>
