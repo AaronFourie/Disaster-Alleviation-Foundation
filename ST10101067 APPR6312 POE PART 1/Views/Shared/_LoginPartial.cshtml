@@ -1,42 +1,60 @@
-﻿
-@using Microsoft.AspNetCore.Identity
+﻿@using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
 <ul class="navbar-nav">
-@if (SignInManager.IsSignedIn(User))
-{
-    
-    <li class="nav-item ">
-            <a class="nav-link text-light" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
-    </li>
-    <li class="nav-item">
-        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                <button type="submit" class="nav-link btn btn-link text-light">Logout</button>
-        </form>
-    </li>
-    <li class="nav-item">
-            <a class="nav-link text-light" asp-area="" asp-controller="UserGoodsDonations" asp-action="Index">Goods Donations</a>
-    </li>
-    <li class="nav-item">
-            <a class="nav-link text-light" asp-area="" asp-controller="UserMoneyDonations" asp-action="Index">Money Donations</a>
-    </li>
-    <li class="nav-item">
-            <a class="nav-link text-light" asp-area="" asp-controller="UserDisasters" asp-action="Index">Disasters</a>
-    </li>
-}
-else
-{
-    <li class="nav-item">
-            <a class="nav-link text-light" asp-area="Identity" asp-page="/Account/Register">Register</a>
-    </li>
-    <li class="nav-item">
-            <a class="nav-link text-light" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
+    @if (SignInManager.IsSignedIn(User))
+    {
         <li class="nav-item">
-            <a class="nav-link text-light" asp-area="" asp-controller="Admins" asp-action="Create" >Employee Login</a>
+            <span class="nav-link text-light">Welcome @UserManager.GetUserName(User)</span>
         </li>
-}
+        @if (User.IsInRole("Admin"))
+        {
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-controller="GoodsDonations" asp-action="Index">Goods Donations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-controller="MoneyDonations" asp-action="Index">Money Donations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-controller="Disasters" asp-action="Index">Disasters</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-controller="MoneyAllocations" asp-action="Index">Allocate money to disaster</a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-controller="GoodsAllocations" asp-action="Index">Allocate goods to disaster</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-controller="GoodsPurchases" asp-action="Index">Purchase goods</a>
+            </li>
+        }
+        else
+        {
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-controller="UserGoodsDonations" asp-action="Index">Goods Donations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-controller="UserMoneyDonations" asp-action="Index">Money Donations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" asp-area="" asp-controller="UserDisasters" asp-action="Index">Disasters</a>
+            </li>
+        }
+
+        <li class="nav-item">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="nav-link btn btn-link text-light">Logout</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link text-light" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        </li>
+    }
 </ul>
-
-
