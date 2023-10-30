@@ -84,13 +84,22 @@
   font-size:13px;
   margin-bottom:0;
 }
+
+        .footer-link {
+            text-decoration: none; /* Remove underlines */
+            color: darkorange; /* Change the link color to purple */
+        }
+
+            .footer-link:hover {
+                color: purple; /* Change the link color on hover */
+            }
     </style>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-black">
   <div class="container-fluid">
-    <a class="navbar-brand text-light" asp-area="" asp-controller="Home" asp-action="Index">APPR_POE_PART_1</a>
+    <a class="navbar-brand text-light" asp-area="" asp-controller="Home" asp-action="Index">The Disaster Alleviaton Foundation</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -110,30 +119,32 @@
             @RenderBody()
         </main>
     </div>
+ 
+    <div class="footer-light bg-white m-0" style="padding: 1rem 0 0rem 0">
 
-    <div class="footer-light bg-white m-0" style="padding: 10rem 0">
         <footer>
             <div class="container">
+                <hr/>
                 <div class="row">
+                    <div class="col-md-3 item text">
+                        <img src="~/images/Disaster Alleviation Foundation Logo-1.png" alt="Company Logo" width="150" height="150" style="margin-right:2rem">
+                    </div>
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Get Involved by</h3>
                         <ul>
-                            <li><a asp-area="" asp-controller="UserGoodsDonations" asp-action="Create">Donate Goods</a></li>
-                            <li><a asp-area="" asp-controller="UserMoneyDonations" asp-action="Create">Donate Money</a></li>
-                            <li><a asp-area="" asp-controller="UserDisasters" asp-action="Create">Log Disasters</a></li>
+                           <li><a asp-area="" asp-controller="UserGoodsDonations" asp-action="Create" class="footer-link">Donate Goods</a></li>
+                        <li><a asp-area="" asp-controller="UserMoneyDonations" asp-action="Create" class="footer-link">Donate Money</a></li>
+                        <li><a asp-area="" asp-controller="UserDisasters" asp-action="Create" class="footer-link">Log Disasters</a></li>
+                    </ul>
                         </ul>
                     </div>
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>About</h3>
-                        <p>
-                            At the Disaster Alleviation Foundation, we believe in the power of collective compassion. Founded as a non-profit organization with a mission to provide practical aid during times of disaster, our unwavering commitment is to lend a helping hand when it's needed most.
-                        </p>
+                   
+                    <div class="col-md-6 item social">
+                        <a href="#"><i class="icon ion-social-facebook"></i></a>
+                        <a href="#"><i class="icon ion-social-twitter"></i></a>
+                        <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                        <a href="#"><i class="icon ion-social-instagram"></i></a>
                     </div>
-                    <div class="col-md-6 item text">
-                        <h3>We are <bold>The Dissaster Alleviation Foundation</bold></h3>
-                        
-                    </div>
-                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
                 </div>
                 <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | The Disaster Alleviation Foundation</p>
             </div>
