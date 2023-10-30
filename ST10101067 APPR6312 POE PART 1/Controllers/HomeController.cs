@@ -1,10 +1,10 @@
-﻿using ST10101067_APPR6312_POE_PART_1.Models;
+﻿using ST10101067_APPR6312_POE_PART_2.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 
-namespace ST10101067_APPR6312_POE_PART_1.Controllers
+namespace ST10101067_APPR6312_POE_PART_2.Controllers
 {
     public class HomeController : Controller
     {
@@ -24,9 +24,9 @@ namespace ST10101067_APPR6312_POE_PART_1.Controllers
             {
                 var viewModel = new IncomingDataModel
                 {
-                    Disasters = _context.Disatser.ToList(),
                     GoodsDonations = _context.GoodsDonation.ToList(),
-                    MoneyDonations = _context.MoneyDonation.ToList()
+                    MoneyDonations = _context.MoneyDonation.ToList(),
+                    Disasters = _context.Disatser.ToList()
                 };
 
                 return View(viewModel);

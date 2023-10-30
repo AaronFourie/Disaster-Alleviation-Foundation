@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ST10101067_APPR6312_POE_PART_2.Models.GoodsAllocation>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container">
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ITEM_COUNT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CATEGORY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AllocationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AidType)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ITEM_COUNT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CATEGORY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AllocationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AidType)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

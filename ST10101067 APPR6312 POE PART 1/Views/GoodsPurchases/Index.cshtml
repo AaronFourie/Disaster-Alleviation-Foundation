@@ -1,0 +1,49 @@
+﻿@model IEnumerable<ST10101067_APPR6312_POE_PART_2.Models.GoodsPurchase>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container">
+<p>Available Money: @ViewBag.AvailableMoney</p>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CATEGORY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ITEM_COUNT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GoodsPurchasePrice)
+            </th>          
+            <th>
+                @Html.DisplayNameFor(model => model.GoodsTotalPrice)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CATEGORY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ITEM_COUNT)
+            </td>          
+             <td>
+                @Html.DisplayFor(modelItem => item.GoodsPurchasePrice)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.GoodsTotalPrice)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ST10101067_APPR6312_POE_PART_1.Data.Migrations
+namespace ST10101067_APPR6312_POE_PART_2.Data.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration
@@ -11,22 +11,7 @@ namespace ST10101067_APPR6312_POE_PART_1.Data.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
-                name: "Disatser",
-                columns: table => new
-                {
-                    DISTATER_ID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    STARTDATE = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    ENDDATE = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    LOCATION = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    AID_TYPE = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DONOR = table.Column<string>(type: "nvarchar(max)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Disatser", x => x.DISTATER_ID);
-                });
+   
 
             migrationBuilder.CreateTable(
                 name: "GoodsDonation",
@@ -45,20 +30,7 @@ namespace ST10101067_APPR6312_POE_PART_1.Data.Migrations
                     table.PrimaryKey("PK_GoodsDonation", x => x.GOODS_DONATION_ID);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "MoneyDonation",
-                columns: table => new
-                {
-                    MONEY_DONATION_ID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    DATE = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    AMOUNT = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    DONOR = table.Column<string>(type: "nvarchar(max)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_MoneyDonation", x => x.MONEY_DONATION_ID);
-                });
+         
         }
 
         /// <inheritdoc />
@@ -70,8 +42,6 @@ namespace ST10101067_APPR6312_POE_PART_1.Data.Migrations
             migrationBuilder.DropTable(
                 name: "GoodsDonation");
 
-            migrationBuilder.DropTable(
-                name: "MoneyDonation");
         }
     }
 }
