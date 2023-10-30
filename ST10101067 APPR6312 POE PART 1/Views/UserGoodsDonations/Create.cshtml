@@ -5,7 +5,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <div class="container">
-<h1>Create</h1>
 
 <h4>GoodsDonation</h4>
 <hr />
@@ -26,15 +25,22 @@
                 <input asp-for="ITEM_COUNT" class="form-control" />
                 <span asp-validation-for="ITEM_COUNT" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="CATEGORY" class="control-label">Category</label>
-                <select asp-for="CATEGORY" id="CATEGORY" name="CATEGORY" class="form-control">
-                    <option value="" disabled selected>Select a category</option>
-                    <option value="Cloths">Cloths</option>
-                    <option value="Non-Perishable Foods">Non-Perishable Foods</option>
-                </select>
-                <span asp-validation-for="CATEGORY" class="text-danger"></span>
-            </div>
+                <div class="form-group">
+                    <label asp-for="CATEGORY" class="control-label">Category</label>
+                    <select asp-for="CATEGORY" id="CATEGORY" name="CATEGORY" class="form-control">
+                        <option value="" disabled selected>Select a category</option>
+                        <option value="Cloths">Cloths</option>
+                        <option value="Non-Perishable Foods">Non-Perishable Foods</option>
+                        @if (ViewBag.CategoryList != null)
+                        {
+                            foreach (var category in ViewBag.CategoryList as List<string>)
+                            {
+                                <option value="@category">@category</option>
+                            }
+                        }
+                    </select>
+                    <span asp-validation-for="CATEGORY" class="text-danger"></span>
+                </div>
             <div class="form-group">
                 <button type="button" id="addCategoryButton" class="btn btn-primary">Add New Category</button>
             </div>
