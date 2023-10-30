@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\APPR POE PART 1.props" />
-</Project>

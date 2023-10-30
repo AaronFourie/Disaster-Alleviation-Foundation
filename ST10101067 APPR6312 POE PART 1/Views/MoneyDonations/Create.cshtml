@@ -1,0 +1,76 @@
+﻿@model ST10101067_APPR6312_POE_PART_2.Models.MoneyDonation
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <h4>MoneyDonation</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+               <div class="form-group">
+                    <input asp-for="USERNAME" class="form-control" name="USERNAME" type="hidden" value="@UserManager.GetUserName(User)" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="DATE" class="control-label"></label>
+                    <input asp-for="DATE" class="form-control" />
+                    <span asp-validation-for="DATE" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AMOUNT" class="control-label">Amount</label>
+                    <input asp-for="AMOUNT" class="form-control" id="amountInput" />
+                    <span asp-validation-for="AMOUNT" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DONOR" class="control-label">Donor</label><br>
+                    <label asp-for="DONOR"><input type="radio" name="DONOR" value="Anonymous"> Anonymous</label>
+                    <span asp-validation-for="DONOR" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+        <script>
+            $(document).ready(function () {
+
+                var donorSelect = $("#DONOR"); // Declare donorSelect
+                var anonymousRadio = $("#anonymousRadio");
+
+                anonymousRadio.click(function () {
+                    if (anonymousRadio.is(":checked")) {
+                        anonymousRadio.prop("checked", false);
+                    } else {
+                        anonymousRadio.prop("checked", true);
+                    }
+                });
+            });
+        </script>
+         <script>
+        $(document).ready(function () {
+            $("#amountInput").on("input", function () {
+                var input = $(this).val();
+                var pattern = /^\d+(\.\d{0,2})?$/; // Allows up to two decimal places
+
+                if (!pattern.test(input)) {
+                    $(this).val(""); // Clear the input if it doesn't match the pattern
+                }
+            });
+        });
+    </script>
+    }
+</div>

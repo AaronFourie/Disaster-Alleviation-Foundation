@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "Hash": "ir+TmsCwUNCifbSpVjpeIzaYrmqkEkIoutXYJ8AlXtM=",
-  "Source": "ST10101067 APPR6312 POE PART 1",
-  "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+  "Hash": "NZi68qeRJcPMxH7YtJh5QYzjbyAjhJWhfMjCjFx6+FQ=",
+  "Source": "ST10101067 APPR6312 POE PART 2",
+  "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "ST10101067 APPR6312 POE PART 1\\wwwroot",
-      "Source": "ST10101067 APPR6312 POE PART 1",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "Name": "ST10101067 APPR6312 POE PART 2\\wwwroot",
+      "Source": "ST10101067 APPR6312 POE PART 2",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\css\\site.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\css\\site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\favicon.ico",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\favicon.ico",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\js\\site.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\js\\site.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -745,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -762,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -779,13 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -796,13 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -813,13 +813,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -830,13 +830,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -847,13 +847,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -864,13 +864,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -881,13 +881,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -898,13 +898,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -915,13 +915,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -932,13 +932,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -949,13 +949,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -966,13 +966,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1000,13 +1000,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1017,13 +1017,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1034,15 +1034,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ST10101067 APPR6312 POE PART 1.styles.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ST10101067 APPR6312 POE PART 2.styles.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
-      "RelativePath": "ST10101067 APPR6312 POE PART 1.styles.css",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
+      "RelativePath": "ST10101067 APPR6312 POE PART 2.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -1051,15 +1051,15 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ST10101067 APPR6312 POE PART 1.styles.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ST10101067 APPR6312 POE PART 2.styles.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ST10101067 APPR6312 POE PART 1.bundle.scp.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ST10101067 APPR6312 POE PART 2.bundle.scp.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
-      "RelativePath": "ST10101067 APPR6312 POE PART 1.bundle.scp.css",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
+      "RelativePath": "ST10101067 APPR6312 POE PART 2.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -1068,14 +1068,14 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ST10101067 APPR6312 POE PART 1.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ST10101067 APPR6312 POE PART 2.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\css\\ionicons.min.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\css\\ionicons.min.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "css/ionicons.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1088,11 +1088,11 @@
       "OriginalItemSpec": "wwwroot\\css\\ionicons.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\css\\site.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\css\\site.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1105,11 +1105,11 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\favicon.ico",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\favicon.ico",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1122,11 +1122,11 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\.DS_Store",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\.DS_Store",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "fonts/.DS_Store",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1139,11 +1139,11 @@
       "OriginalItemSpec": "wwwroot\\fonts\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\.DS_Store",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\.DS_Store",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "fonts/ionicons/.DS_Store",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1156,11 +1156,11 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ionicons\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\css\\_ionicons.scss",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\css\\_ionicons.scss",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "fonts/ionicons/css/_ionicons.scss",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1173,11 +1173,11 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ionicons\\css\\_ionicons.scss"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\css\\ionicons.min.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\css\\ionicons.min.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "fonts/ionicons/css/ionicons.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1190,11 +1190,11 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ionicons\\css\\ionicons.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\fonts\\.DS_Store",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\fonts\\.DS_Store",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "fonts/ionicons/fonts/.DS_Store",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1207,11 +1207,11 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ionicons\\fonts\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.eot",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.eot",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "fonts/ionicons/fonts/ionicons.eot",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1224,11 +1224,11 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ionicons\\fonts\\ionicons.eot"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.svg",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.svg",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "fonts/ionicons/fonts/ionicons.svg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1241,11 +1241,11 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ionicons\\fonts\\ionicons.svg"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.ttf",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.ttf",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "fonts/ionicons/fonts/ionicons.ttf",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1258,11 +1258,11 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ionicons\\fonts\\ionicons.ttf"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.woff",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.woff",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "fonts/ionicons/fonts/ionicons.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1275,11 +1275,11 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ionicons\\fonts\\ionicons.woff"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.woff2",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.woff2",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "fonts/ionicons/fonts/ionicons.woff2",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1292,11 +1292,11 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ionicons\\fonts\\ionicons.woff2"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\images\\AboutUs.png",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\images\\AboutUs.png",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "images/AboutUs.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1309,11 +1309,45 @@
       "OriginalItemSpec": "wwwroot\\images\\AboutUs.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\images\\Home.png",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\images\\DIsaster Alleviation Foundation Logo.png",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
+      "RelativePath": "images/DIsaster Alleviation Foundation Logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\DIsaster Alleviation Foundation Logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\images\\Disaster Alleviation Foundation Logo-1.png",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
+      "RelativePath": "images/Disaster Alleviation Foundation Logo-1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Disaster Alleviation Foundation Logo-1.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\images\\Home.png",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "images/Home.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1326,11 +1360,11 @@
       "OriginalItemSpec": "wwwroot\\images\\Home.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\images\\Philosophy.png",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\images\\Philosophy.png",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "images/Philosophy.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1343,11 +1377,11 @@
       "OriginalItemSpec": "wwwroot\\images\\Philosophy.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\js\\main.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\js\\main.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1360,11 +1394,11 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\js\\popper.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\js\\popper.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "js/popper.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1377,11 +1411,11 @@
       "OriginalItemSpec": "wwwroot\\js\\popper.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\js\\site.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\js\\site.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1394,11 +1428,11 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1411,11 +1445,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1428,11 +1462,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1445,11 +1479,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1462,11 +1496,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1479,11 +1513,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1496,11 +1530,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1513,11 +1547,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1530,11 +1564,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1547,11 +1581,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1564,11 +1598,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1581,11 +1615,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1598,11 +1632,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1615,11 +1649,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1632,11 +1666,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1649,11 +1683,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1666,11 +1700,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1683,11 +1717,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1700,11 +1734,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1717,11 +1751,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1734,11 +1768,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1751,11 +1785,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1768,11 +1802,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1785,11 +1819,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1802,11 +1836,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1819,11 +1853,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1836,11 +1870,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1853,11 +1887,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1870,11 +1904,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1887,11 +1921,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1904,11 +1938,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1921,11 +1955,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1938,11 +1972,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1955,11 +1989,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1972,11 +2006,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1989,11 +2023,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2006,11 +2040,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2023,11 +2057,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2040,11 +2074,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2057,11 +2091,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2074,11 +2108,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2091,11 +2125,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2108,11 +2142,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2125,11 +2159,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2142,11 +2176,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2159,11 +2193,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2176,11 +2210,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2193,11 +2227,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2210,11 +2244,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2227,11 +2261,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2244,11 +2278,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2261,11 +2295,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2278,11 +2312,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2295,11 +2329,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2312,11 +2346,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2329,11 +2363,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -2346,11 +2380,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "ST10101067 APPR6312 POE PART 1",
+      "Identity": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "ST10101067 APPR6312 POE PART 2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\Work\\3rd Year\\Semester 2\\APPR6312\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
-      "BasePath": "_content/ST10101067 APPR6312 POE PART 1",
+      "ContentRoot": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\wwwroot\\",
+      "BasePath": "_content/ST10101067 APPR6312 POE PART 2",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",

@@ -1,0 +1,151 @@
+﻿@model ST10101067_APPR6312_POE_PART_2.Models.GoodsDonation
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <h1>Create</h1>
+
+    <h4>GoodsDonation</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <input asp-for="USERNAME" class="form-control" name="USERNAME" type="hidden" value="@UserManager.GetUserName(User)" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="DATE" class="control-label">Date</label>
+                    <input asp-for="DATE" class="form-control" />
+                    <span asp-validation-for="DATE" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ITEM_COUNT" class="control-label">Item Count</label>
+                    <input asp-for="ITEM_COUNT" class="form-control" />
+                    <span asp-validation-for="ITEM_COUNT" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CATEGORY" class="control-label">Category</label>
+                    <select asp-for="CATEGORY" id="CATEGORY" name="CATEGORY" class="form-control">
+                        <option value="" disabled selected>Select a category</option>
+                        <option value="Cloths">Cloths</option>
+                        <option value="Non-Perishable Foods">Non-Perishable Foods</option>
+                        @if (ViewBag.CategoryList != null)
+                        {
+                            foreach (var category in ViewBag.CategoryList as List<string>)
+                            {
+                                <option value="@category">@category</option>
+                            }
+                        }
+                    </select>
+                    <span asp-validation-for="CATEGORY" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <button type="button" id="addCategoryButton" class="btn btn-primary">Add New Category</button>
+                </div>
+                <div id="newCategoryForm" style="display: none;">
+                    <div class="form-group">
+                        <input type="text" id="newCategoryName" class="form-control mt-2" placeholder="Enter new category" />
+                    </div>
+                    <div class="form-group">
+                        <button type="button" id="createCategoryButton" class="btn btn-success">Create</button>
+                        <button type="button" id="cancelCategoryButton" class="btn btn-secondary">Cancel</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DESCRIPTION" class="control-label">Description</label>
+                    <input asp-for="DESCRIPTION" class="form-control" />
+                    <span asp-validation-for="DESCRIPTION" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DONOR" class="control-label">Donor</label><br>
+                    <label asp-for="DONOR"><input type="radio" name="DONOR" value="Anonymous"> Anonymous</label>
+                    <span asp-validation-for="DONOR" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Donate" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Include jQuery -->
+
+            <script>
+                $(document).ready(function () {
+                    var categoryDropdown = $("#CATEGORY");
+                    var addCategoryButton = $("#addCategoryButton");
+                    var newCategoryForm = $("#newCategoryForm");
+                    var newCategoryName = $("#newCategoryName");
+                    var createCategoryButton = $("#createCategoryButton");
+                    var cancelCategoryButton = $("#cancelCategoryButton");
+                    var donorSelect = $("#DONOR"); // Declare donorSelect
+                    var anonymousRadio = $("#anonymousRadio");
+
+                    addCategoryButton.click(function () {
+                        // Disable the "Add New Category" button
+                        addCategoryButton.prop("disabled", true);
+                        // Disable the category dropdown
+                        categoryDropdown.prop("disabled", true);
+                        newCategoryForm.show();
+                    });
+
+                    cancelCategoryButton.click(function () {
+                        // Enable the "Add New Category" button
+                        addCategoryButton.prop("disabled", false);
+                        // Enable the category dropdown
+                        categoryDropdown.prop("disabled", false);
+                        newCategoryForm.hide();
+                        newCategoryName.val("");
+                    });
+
+                    createCategoryButton.click(function () {
+                        var newCategory = newCategoryName.val();
+                        if (newCategory) {
+                            // Update the category dropdown
+                            var option = $("<option>", {
+                                value: newCategory,
+                                text: newCategory,
+                                selected: true
+                            });
+                            categoryDropdown.append(option);
+
+                            // Enable the "Add New Category" button
+                            addCategoryButton.prop("disabled", false);
+                            // Enable the category dropdown
+                            categoryDropdown.prop("disabled", false);
+
+                            // Reset form and hide it
+                            newCategoryForm.hide();
+                            newCategoryName.val("");
+                        }
+                    });
+
+                    anonymousRadio.click(function () {
+                        if (anonymousRadio.is(":checked")) {
+                            anonymousRadio.prop("checked", false);
+                        } else {
+                            anonymousRadio.prop("checked", true);
+                        }
+                    });
+                });
+            </script>
+        }
+
+
+    }
+</div>

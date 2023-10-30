@@ -1,0 +1,51 @@
+﻿@model ST10101067_APPR6312_POE_PART_2.Models.Disaster
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="container">
+<h1>Edit</h1>
+
+<h4>Disaster</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DISTATER_ID" />
+            <div class="form-group">
+                <label asp-for="USERNAME" class="control-label"></label>
+                <input asp-for="USERNAME" class="form-control" />
+                <span asp-validation-for="USERNAME" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="STARTDATE" class="control-label"></label>
+                <input asp-for="STARTDATE" class="form-control" />
+                <span asp-validation-for="STARTDATE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ENDDATE" class="control-label"></label>
+                <input asp-for="ENDDATE" class="form-control" />
+                <span asp-validation-for="ENDDATE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LOCATION" class="control-label"></label>
+                <input asp-for="LOCATION" class="form-control" />
+                <span asp-validation-for="LOCATION" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AID_TYPE" class="control-label"></label>
+                <input asp-for="AID_TYPE" class="form-control" />
+                <span asp-validation-for="AID_TYPE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+    <div class="container">

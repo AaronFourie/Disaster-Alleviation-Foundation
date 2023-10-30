@@ -4,7 +4,7 @@
 @using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
-@model ST10101067_APPR6312_POE_PART_1.Models.IncomingDataModel;
+@model ST10101067_APPR6312_POE_PART_2.Models.IncomingDataModel;
 
 
     <img class="w-100 h-100" src="~/images/Home.png" alt="" style="background-size: cover;
@@ -20,17 +20,17 @@
     <div class="row">
         <div class="col-md-4">
             <div class="p-4 text-center">
-                <a class="btn btn-outline-light bg-black" style="font-size:2rem; border-radius:12px" asp-area="" asp-controller="UserDisasters" asp-action="Create">Log a Disaster</a>
+                <a class="btn btn-outline-light bg-orange" style="font-size:2rem; border-radius:12px" asp-area="" asp-controller="UserDisasters" asp-action="Create">Log a Disaster</a>
             </div>
         </div>
         <div class="col-md-4">
             <div class=" p-4 text-center">
-                <a class="btn btn-outline-light bg-black" style="font-size:2rem; ; border-radius:12px" asp-area="" asp-controller="UserGoodsDonations" asp-action="Create">Donate Goods</a>
+                <a class="btn btn-outline-light bg-orange" style="font-size:2rem; ; border-radius:12px" asp-area="" asp-controller="UserGoodsDonations" asp-action="Create">Donate Goods</a>
             </div>
         </div>
         <div class="col-md-4">
             <div class="p-4 text-center">
-                <a class="btn btn-outline-light bg-black" style="font-size:2rem; border-radius:12px" asp-area="" asp-controller="UserMoneyDonations" asp-action="Create">Donate Money</a>
+                <a class="btn btn-outline-light bg-orange" style="font-size:2rem; border-radius:12px" asp-area="" asp-controller="UserMoneyDonations" asp-action="Create">Donate Money</a>
             </div>
         </div>
     </div>
@@ -49,31 +49,6 @@
 
     <br />
      <div class="container">
-    <h1>Incoming Disasters</h1>
-
-    <table class="table">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Start Date</th>
-                <th>End Date</th>
-                <th>Location</th>
-                <th>Aid Type</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var disaster in Model.Disasters)
-            {
-                <tr>
-                    <td>@disaster.DISTATER_ID</td>
-                    <td>@disaster.STARTDATE</td>
-                    <td>@disaster.ENDDATE</td>
-                    <td>@disaster.LOCATION</td>
-                    <td>@disaster.AID_TYPE</td>
-                </tr>
-            }
-        </tbody>
-    </table>
 
     <h1>Incoming Goods Donations</h1>
 
@@ -122,6 +97,37 @@
                     <td>@moneyDonation.DATE</td>
                     <td>@moneyDonation.AMOUNT</td>
                     <td>@moneyDonation.DONOR</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    
+
+     <h1>Incoming Disasters</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Username</th>
+                <th>Start date</th>
+                <th>End date</th>
+                <th>Location</th>
+                <th>Aid Type</th>
+                <th>Is Active</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var disaster in Model.Disasters)
+            {
+                <tr>
+                    <td>@disaster.DISTATER_ID</td>
+                    <td>@disaster.USERNAME</td>
+                    <td>@disaster.STARTDATE</td>
+                    <td>@disaster.ENDDATE</td>
+                    <td>@disaster.LOCATION</td>
+                    <td>@disaster.AID_TYPE</td>
+                    <td>@disaster.IsActive</td>
                 </tr>
             }
         </tbody>

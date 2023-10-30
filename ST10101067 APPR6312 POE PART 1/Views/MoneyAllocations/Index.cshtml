@@ -1,0 +1,49 @@
+﻿@model IEnumerable<ST10101067_APPR6312_POE_PART_2.Models.MoneyAllocation>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+
+<h2>Money Allocations</h2>
+
+<p>Remaining Money: @ViewBag.RemainingMoney.ToString("C")</p>
+<p>Total Allocated: @ViewBag.Total.ToString("C")</p>
+<p>
+    <a asp-action="Create">Create new</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AllocationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AidType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AllocationAmount)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AllocationDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AidType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AllocationAmount)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
