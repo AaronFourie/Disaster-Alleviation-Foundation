@@ -9,11 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ST10101067_APPR6312_POE_PART_2
 build_property.RootNamespace = ST10101067_APPR6312_POE_PART_2
-build_property.ProjectDir = C:\Users\User\Source\Repos\APPR6312_POE\ST10101067 APPR6312 POE PART 1\
+build_property.ProjectDir = C:\Users\User\source\repos\APPR6312_POE\ST10101067 APPR6312 POE PART 1\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\Source\Repos\APPR6312_POE\ST10101067 APPR6312 POE PART 1
+build_property.MSBuildProjectDirectory = C:\Users\User\source\repos\APPR6312_POE\ST10101067 APPR6312 POE PART 1
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/User/source/repos/APPR6312_POE/ST10101067 APPR6312 POE PART 1/Areas/Identity/Pages/Account/Login.cshtml]
