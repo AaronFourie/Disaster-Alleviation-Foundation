@@ -22,29 +22,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         {
             _context = context;
         }
-
-        // GET: UserDisasters
-        [Authorize]
-        public async Task<IActionResult> Index()
-        {
-            if (!@User.Identity.IsAuthenticated)
-            {
-                // User is not logged in, handle this case as needed (e.g., redirect to login)
-                return RedirectToAction("Login", "Account");
-            }
-
-            // Get the current logged-in username
-            string currentUsername = @User.Identity.Name;
-
-            // Query the data for the current username
-            var userGoodsDonations = await _context.Disatser
-                .Where(d => d.USERNAME == currentUsername)
-                .ToListAsync();
-
-            return View(userGoodsDonations);
-        }
-
-        // GET: UserDisasters/Details/5
+        // GET: Disasters/Details/5
         [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
@@ -62,39 +40,92 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
 
             return View(disaster);
         }
+        [Authorize]
+        public async Task<IActionResult> Index()
+        {
+            // Check if the user is authenticated
+            if (!User.Identity.IsAuthenticated)
+            {
+                // User is not logged in, handle this case as needed (e.g., redirect to login)
+                return RedirectToAction("Login", "Account");
+            }
+
+            // Get the current logged-in username
+            string currentUsername = User.Identity.Name;
+
+            // Query the data for the current username
+            var userDisasters = await _context.Disatser
+                .Where(d => d.USERNAME == currentUsername)
+                .ToListAsync();
+
+            return View(userDisasters);
+        }
 
         // GET: UserDisasters/Create
         [Authorize]
         public IActionResult Create()
         {
-            return View();
-        }
+            var currentDate = DateTime.Now.Date;
+            var tomorrow = currentDate.AddDays(1);
 
-        // POST: UserDisasters/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+            var disaster = new Disaster
+            {
+                STARTDATE = currentDate,
+                ENDDATE = tomorrow
+            };
+
+            return View(disaster);
+        }
         [HttpPost]
-        [Authorize]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("DISTATER_ID,USERNAME,STARTDATE,ENDDATE,LOCATION,AID_TYPE")] Disaster disaster)
+        [Authorize] //any logged in user
+        public async Task<IActionResult> Create([Bind("DISTATER_ID,USERNAME,STARTDATE,ENDDATE,LOCATION,AID_TYPE,IsActive")] Disaster disaster)
         {
             if (ModelState.IsValid)
             {
                 // Get the current logged-in username
-                string currentUsername = @User.Identity.Name;
+                string currentUsername = User.Identity.Name;
 
                 // Set the username of the disaster to the current user's username
                 disaster.USERNAME = currentUsername;
 
+                // Check if the start date is before the current date
+                if (disaster.STARTDATE < DateTime.Now.Date)
+                {
+                    ModelState.AddModelError("STARTDATE", "Start date cannot be earlier than today.");
+                    return View(disaster);
+                }
+
+                // Check if the current date is in between the start and end dates
+                if (disaster.STARTDATE <= DateTime.Now.Date && DateTime.Now.Date <= disaster.ENDDATE)
+                {
+                    disaster.IsActive = 1; // 1 represents true in your integer-based flag
+                }
+                else
+                {
+                    disaster.IsActive = 0; // 0 represents false in your integer-based flag
+                }
+
+                if (disaster.ENDDATE < disaster.STARTDATE.Value.Date.AddDays(1))
+                {
+                    ModelState.AddModelError("ENDDATE", "End date must be at least one day after the start date.");
+                    return View(disaster);
+                }
+
+                // Now add the disaster with MoneyAllocation to the context.
                 _context.Add(disaster);
+
+                // Save changes to the database.
                 await _context.SaveChangesAsync();
+
                 return RedirectToAction(nameof(Index));
             }
+
             return View(disaster);
         }
 
         // GET: UserDisasters/Edit/5
-        [Authorize]
+        [Authorize(Roles = "Admin")] //only admin
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Disatser == null)
@@ -117,7 +148,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("DISTATER_ID,USERNAME,STARTDATE,ENDDATE,LOCATION,AID_TYPE")] Disaster disaster)
         {
@@ -158,7 +189,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         }
 
         // GET: UserDisasters/Delete/5
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Disatser == null)
@@ -180,7 +211,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
 
         // POST: UserDisasters/Delete/5
         [HttpPost, ActionName("Delete")]
-        [Authorize]
+        [Authorize (Roles ="Admin")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

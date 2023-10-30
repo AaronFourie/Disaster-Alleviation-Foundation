@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ST10101067 APPR6312 POE PART 1",
+    "\\ST10101067 APPR6312 POE PART 1\\Areas",
+    "\\ST10101067 APPR6312 POE PART 1\\Areas\\Identity",
+    "\\ST10101067 APPR6312 POE PART 1\\Areas\\Identity\\Pages",
+    "\\ST10101067 APPR6312 POE PART 1\\Controllers",
+    "\\ST10101067 APPR6312 POE PART 1\\Controllers\\Individual Account"
   ],
-  "SelectedNode": "\\ST10101067 APPR6312 POE PART 2.sln",
+  "SelectedNode": "\\ST10101067 APPR6312 POE PART 1\\Controllers\\Individual Account\\UserGoodsDonationsController.cs",
   "PreviewInSolutionExplorer": false
 }

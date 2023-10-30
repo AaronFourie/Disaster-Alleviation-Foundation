@@ -1,0 +1,49 @@
+﻿@model ST10101067_APPR6312_POE_PART_2.Models.GoodsDonation
+<div class="container">
+<div>
+    <h4>GoodsDonation</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.USERNAME)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.USERNAME)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DATE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DATE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ITEM_COUNT)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ITEM_COUNT)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CATEGORY)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CATEGORY)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DESCRIPTION)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DESCRIPTION)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DONOR)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DONOR)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.GOODS_DONATION_ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+</div>

@@ -114,6 +114,15 @@ namespace ST10101067_APPR6312_POE_PART_2.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
+
+                    // Check if the user logging in is an admin
+                    var user = await _signInManager.UserManager.FindByNameAsync(Input.UserName);
+                    if (await _signInManager.UserManager.IsInRoleAsync(user, "Admin"))
+                    {
+                        // If the user is an admin, add the "Admin" role to them
+                        await _signInManager.UserManager.AddToRoleAsync(user, "Admin");
+                    }
+
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)

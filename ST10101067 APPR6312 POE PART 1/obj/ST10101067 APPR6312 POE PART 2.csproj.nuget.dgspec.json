@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 2.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 2.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 2.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 2.csproj",
         "projectName": "ST10101067 APPR6312 POE PART 2",
-        "projectPath": "C:\\Users\\User\\source\\repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 2.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\ST10101067 APPR6312 POE PART 2.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\APPR6312_POE\\ST10101067 APPR6312 POE PART 1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,35 +44,31 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNet.Identity.Core": {
-              "target": "Package",
-              "version": "[2.2.4, )"
-            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[7.0.13, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[7.0.13, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[7.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[7.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[7.0.13, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[7.0.11, )"
             }
           },
           "imports": [

@@ -24,9 +24,9 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
             {
                 var viewModel = new IncomingDataModel
                 {
-                    Disasters = _context.Disatser.ToList(),
                     GoodsDonations = _context.GoodsDonation.ToList(),
-                    MoneyDonations = _context.MoneyDonation.ToList()
+                    MoneyDonations = _context.MoneyDonation.ToList(),
+                    Disasters = _context.Disatser.ToList()
                 };
 
                 return View(viewModel);

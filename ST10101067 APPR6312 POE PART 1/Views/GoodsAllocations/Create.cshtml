@@ -1,0 +1,67 @@
+﻿@model ST10101067_APPR6312_POE_PART_2.Models.GoodsAllocation
+
+@{
+    ViewData["Title"] = "Create Goods Allocation";
+}
+<div class="container">
+<h1>Create Goods Allocation</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="CATEGORY">Select Category</label>
+        <select asp-for="CATEGORY" asp-items="new SelectList(ViewBag.Categories)" class="form-control">
+            <option value="">-- Select Category --</option>
+        </select>
+        <span asp-validation-for="CATEGORY" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ITEM_COUNT">Select Item Count</label>
+        <select asp-for="ITEM_COUNT" class="form-control" id="itemCountSelect">
+            <option value="">-- Select Item Count --</option>
+        </select>
+        <span asp-validation-for="ITEM_COUNT" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AidType">Aid Type</label>
+        <select asp-for="AidType" asp-items="ViewBag.DisasterTypes" class="form-control">
+            <option value="">-- Select Aid Type --</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+</div>
+@section Scripts {
+    <script>
+        $(function () {
+            // When the category select changes, populate the item count select dynamically
+            $("#CATEGORY").on("change", function () {
+                var category = $(this).val();
+                if (category) {
+                    $.ajax({
+                        type: "POST",
+                        url: "/GoodsAllocations/GetSumOfItemCount",
+                        data: { category: category },
+                        success: function (sumOfItemCount) {
+                            var itemCountSelect = $("#itemCountSelect");
+                            itemCountSelect.empty(); // Clear previous options
+                            itemCountSelect.append($('<option value="">-- Select Item Count --</option>'));
+
+                            // Populate the dropdown with integers from 1 to the sumOfItemCount
+                            for (var i = 1; i <= sumOfItemCount; i++) {
+                                itemCountSelect.append($('<option></option>').val(i).html(i));
+                            }
+                        }
+                    });
+                } else {
+                    // Reset the item count select when no category is selected
+                    var itemCountSelect = $("#itemCountSelect");
+                    itemCountSelect.empty();
+                    itemCountSelect.append($('<option value="">-- Select Item Count --</option>'));
+                }
+            });
+        });
+    </script>
+}

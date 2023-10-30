@@ -17,7 +17,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.11")
+                .HasAnnotation("ProductVersion", "7.0.13")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -224,28 +224,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("ST10101067_APPR6312_POE_PART_1.Models.Admin", b =>
-                {
-                    b.Property<int>("ADMIN_ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ADMIN_ID"));
-
-                    b.Property<string>("EMAIL")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PASSWORD")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("ADMIN_ID");
-
-                    b.ToTable("Admin");
-                });
-
-            modelBuilder.Entity("ST10101067_APPR6312_POE_PART_1.Models.Disaster", b =>
+            modelBuilder.Entity("ST10101067_APPR6312_POE_PART_2.Models.Disaster", b =>
                 {
                     b.Property<int>("DISTATER_ID")
                         .ValueGeneratedOnAdd()
@@ -259,7 +238,10 @@ namespace ST10101067_APPR6312_POE_PART_2.Data.Migrations
 
                     b.Property<DateTime?>("ENDDATE")
                         .IsRequired()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("date");
+
+                    b.Property<int>("IsActive")
+                        .HasColumnType("int");
 
                     b.Property<string>("LOCATION")
                         .IsRequired()
@@ -267,7 +249,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Data.Migrations
 
                     b.Property<DateTime?>("STARTDATE")
                         .IsRequired()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("date");
 
                     b.Property<string>("USERNAME")
                         .IsRequired()
@@ -278,7 +260,32 @@ namespace ST10101067_APPR6312_POE_PART_2.Data.Migrations
                     b.ToTable("Disatser");
                 });
 
-            modelBuilder.Entity("ST10101067_APPR6312_POE_PART_1.Models.GoodsDonation", b =>
+            modelBuilder.Entity("ST10101067_APPR6312_POE_PART_2.Models.GoodsAllocation", b =>
+                {
+                    b.Property<int>("GoodsAllocationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("GoodsAllocationId"));
+
+                    b.Property<string>("AidType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("AllocationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CATEGORY")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ITEM_COUNT")
+                        .HasColumnType("int");
+
+                    b.HasKey("GoodsAllocationId");
+
+                    b.ToTable("GoodsAllocation");
+                });
+
+            modelBuilder.Entity("ST10101067_APPR6312_POE_PART_2.Models.GoodsDonation", b =>
                 {
                     b.Property<int>("GOODS_DONATION_ID")
                         .ValueGeneratedOnAdd()
@@ -292,7 +299,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Data.Migrations
 
                     b.Property<DateTime?>("DATE")
                         .IsRequired()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("date");
 
                     b.Property<string>("DESCRIPTION")
                         .IsRequired()
@@ -313,7 +320,96 @@ namespace ST10101067_APPR6312_POE_PART_2.Data.Migrations
                     b.ToTable("GoodsDonation");
                 });
 
-            modelBuilder.Entity("ST10101067_APPR6312_POE_PART_1.Models.MoneyDonation", b =>
+            modelBuilder.Entity("ST10101067_APPR6312_POE_PART_2.Models.GoodsInventory", b =>
+                {
+                    b.Property<int>("GOODS_INVENTORY_ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("GOODS_INVENTORY_ID"));
+
+                    b.Property<int?>("AVALIABLE_GOODS")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CATGEORY")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ITEM_COUNT")
+                        .HasColumnType("int");
+
+                    b.HasKey("GOODS_INVENTORY_ID");
+
+                    b.ToTable("GoodsInventory");
+                });
+
+            modelBuilder.Entity("ST10101067_APPR6312_POE_PART_2.Models.GoodsPurchase", b =>
+                {
+                    b.Property<int>("GoodsPurchaseID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("GoodsPurchaseID"));
+
+                    b.Property<string>("CATEGORY")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("GoodsPurchasePrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("GoodsTotalPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ITEM_COUNT")
+                        .HasColumnType("int");
+
+                    b.HasKey("GoodsPurchaseID");
+
+                    b.ToTable("GoodsPurchase");
+                });
+
+            modelBuilder.Entity("ST10101067_APPR6312_POE_PART_2.Models.Money", b =>
+                {
+                    b.Property<int>("MoneyId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MoneyId"));
+
+                    b.Property<decimal>("RemainingMoney")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("TotalMoney")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("MoneyId");
+
+                    b.ToTable("Money");
+                });
+
+            modelBuilder.Entity("ST10101067_APPR6312_POE_PART_2.Models.MoneyAllocation", b =>
+                {
+                    b.Property<int>("MoneyAllocationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MoneyAllocationId"));
+
+                    b.Property<string>("AidType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("AllocationAmount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("AllocationDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("MoneyAllocationId");
+
+                    b.ToTable("MoneyAllocation");
+                });
+
+            modelBuilder.Entity("ST10101067_APPR6312_POE_PART_2.Models.MoneyDonation", b =>
                 {
                     b.Property<int>("MONEY_DONATION_ID")
                         .ValueGeneratedOnAdd()
@@ -326,7 +422,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Data.Migrations
 
                     b.Property<DateTime?>("DATE")
                         .IsRequired()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("date");
 
                     b.Property<string>("DONOR")
                         .HasColumnType("nvarchar(max)");

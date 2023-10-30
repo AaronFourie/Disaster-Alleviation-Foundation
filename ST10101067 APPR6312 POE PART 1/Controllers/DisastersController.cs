@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using ST10101067_APPR6312_POE_PART_2.Data;
+using ST10101067_APPR6312_POE_PART_2;
 using ST10101067_APPR6312_POE_PART_2.Models;
 
 namespace ST10101067_APPR6312_POE_PART_2.Controllers
@@ -45,29 +47,71 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
             return View(disaster);
         }
 
-        // GET: Disasters/Create
+        // GET: UserDisasters/Create
+        [Authorize]
         public IActionResult Create()
         {
-            return View();
-        }
+            var currentDate = DateTime.Now.Date;
+            var tomorrow = currentDate.AddDays(1);
 
-        // POST: Disasters/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+            var disaster = new Disaster
+            {
+                STARTDATE = currentDate,
+                ENDDATE = tomorrow
+            };
+
+            return View(disaster);
+        }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("DISTATER_ID, USERNAME, STARTDATE,ENDDATE,LOCATION,AID_TYPE,DONOR")] Disaster disaster)
+        [Authorize]
+        public async Task<IActionResult> Create([Bind("DISTATER_ID,USERNAME,STARTDATE,ENDDATE,LOCATION,AID_TYPE,IsActive")] Disaster disaster)
         {
             if (ModelState.IsValid)
             {
+                // Get the current logged-in username
+                string currentUsername = User.Identity.Name;
+
+                // Set the username of the disaster to the current user's username
+                disaster.USERNAME = currentUsername;
+
+                // Check if the start date is before the current date
+                if (disaster.STARTDATE < DateTime.Now.Date)
+                {
+                    ModelState.AddModelError("STARTDATE", "Start date cannot be earlier than today.");
+                    return View(disaster);
+                }
+
+                // Check if the current date is in between the start and end dates
+                if (disaster.STARTDATE <= DateTime.Now.Date && DateTime.Now.Date <= disaster.ENDDATE)
+                {
+                    disaster.IsActive = 1; // 1 represents true in your integer-based flag
+                }
+                else
+                {
+                    disaster.IsActive = 0; // 0 represents false in your integer-based flag
+                }
+
+                if (disaster.ENDDATE < disaster.STARTDATE.Value.Date.AddDays(1))
+                {
+                    ModelState.AddModelError("ENDDATE", "End date must be at least one day after the start date.");
+                    return View(disaster);
+                }
+
+                // Now add the disaster with MoneyAllocation to the context.
                 _context.Add(disaster);
+
+                // Save changes to the database.
                 await _context.SaveChangesAsync();
+
                 return RedirectToAction(nameof(Index));
             }
+
             return View(disaster);
         }
 
-        // GET: Disasters/Edit/5
+        // GET: UserDisasters/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Disatser == null)
@@ -76,19 +120,21 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
             }
 
             var disaster = await _context.Disatser.FindAsync(id);
+
             if (disaster == null)
             {
+                // Either the disaster doesn't exist or it doesn't belong to the current user
                 return NotFound();
             }
+
             return View(disaster);
         }
 
-        // POST: Disasters/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: UserDisasters/Edit/5
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("DISTATER_ID, USERNAME, STARTDATE,ENDDATE,LOCATION,AID_TYPE,DONOR")] Disaster disaster)
+        public async Task<IActionResult> Edit(int id, [Bind("DISTATER_ID,USERNAME,STARTDATE,ENDDATE,LOCATION,AID_TYPE")] Disaster disaster)
         {
             if (id != disaster.DISTATER_ID)
             {
@@ -99,6 +145,28 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
             {
                 try
                 {
+                    // Check if the start date is before the current date
+                    if (disaster.STARTDATE < DateTime.Now.Date)
+                    {
+                        ModelState.AddModelError("STARTDATE", "Start date cannot be earlier than today.");
+                        return View(disaster);
+                    }
+
+                    // Check if the current date is in between the start and end dates
+                    if (disaster.STARTDATE <= DateTime.Now.Date && DateTime.Now.Date <= disaster.ENDDATE)
+                    {
+                        disaster.IsActive = 1; // 1 represents true in your integer-based flag
+                    }
+                    else
+                    {
+                        disaster.IsActive = 0; // 0 represents false in your integer-based flag
+                    }
+
+                    if (disaster.ENDDATE < disaster.STARTDATE.Value.Date.AddDays(1))
+                    {
+                        ModelState.AddModelError("ENDDATE", "End date must be at least one day after the start date.");
+                        return View(disaster);
+                    }
                     _context.Update(disaster);
                     await _context.SaveChangesAsync();
                 }
@@ -118,7 +186,9 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
             return View(disaster);
         }
 
-        // GET: Disasters/Delete/5
+
+        // GET: UserDisasters/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Disatser == null)
@@ -126,18 +196,20 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
                 return NotFound();
             }
 
-            var disaster = await _context.Disatser
-                .FirstOrDefaultAsync(m => m.DISTATER_ID == id);
+            var disaster = await _context.Disatser.FindAsync(id);
+
             if (disaster == null)
             {
+                // Either the disaster doesn't exist or it doesn't belong to the current user
                 return NotFound();
             }
 
             return View(disaster);
         }
 
-        // POST: Disasters/Delete/5
+        // POST: UserDisasters/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
@@ -145,19 +217,22 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
             {
                 return Problem("Entity set 'ApplicationDbContext.Disatser'  is null.");
             }
+
             var disaster = await _context.Disatser.FindAsync(id);
-            if (disaster != null)
+
+            if (disaster == null)
             {
-                _context.Disatser.Remove(disaster);
+                // The disaster doesn't exist
+                return NotFound();
             }
-            
+
+            _context.Disatser.Remove(disaster);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-
         private bool DisasterExists(int id)
         {
-          return (_context.Disatser?.Any(e => e.DISTATER_ID == id)).GetValueOrDefault();
+            return _context.Disatser.Any(e => e.DISTATER_ID == id);
         }
     }
 }

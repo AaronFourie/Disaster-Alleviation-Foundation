@@ -1,0 +1,56 @@
+﻿@model IEnumerable<ST10101067_APPR6312_POE_PART_2.Models.GoodsDonation>
+
+<div class="container">
+
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DATE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ITEM_COUNT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CATEGORY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DESCRIPTION)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DONOR)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DATE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ITEM_COUNT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CATEGORY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DESCRIPTION)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DONOR)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.GOODS_DONATION_ID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.GOODS_DONATION_ID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.GOODS_DONATION_ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

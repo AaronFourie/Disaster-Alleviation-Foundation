@@ -1,0 +1,118 @@
+﻿@model ST10101067_APPR6312_POE_PART_2.Models.GoodsPurchase
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="container">
+<p>Available Money: @ViewBag.AvailableMoney</p>
+
+<h4>GoodsPurchase</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="CATEGORY" class="control-label">Category</label>
+                <select asp-for="CATEGORY" asp-items="ViewBag.Categories" class="form-control">
+                    <option value="">-- Select Category --</option>
+                </select>
+                <span asp-validation-for="CATEGORY" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ITEM_COUNT" class="control-label">Select the number of items</label>
+                <input asp-for="ITEM_COUNT" class="form-control" />
+                <span asp-validation-for="ITEM_COUNT" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="GoodsPurchasePrice" class="control-label">Item Price</label>
+                <input asp-for="GoodsPurchasePrice" class="form-control" />
+                <span asp-validation-for="GoodsPurchasePrice" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <button type="button" id="addCategoryButton" class="btn btn-primary">Add New Category</button>
+            </div>
+
+            <div id="newCategoryForm" style="display: none;">
+                <div class="form-group">
+                    <input type="text" id="newCategoryName" class="form-control mt-2" placeholder="Enter new category" />
+                </div>
+
+                <div class="form-group">
+                    <button type="button" id="createCategoryButton" class="btn btn-success">Create</button>
+                    <button type="button" id="cancelCategoryButton" class="btn btn-secondary">Cancel</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Include jQuery -->
+
+        <script>
+            $(document).ready(function () {
+                var categoryDropdown = $("#CATEGORY");
+                var addCategoryButton = $("#addCategoryButton");
+                var newCategoryForm = $("#newCategoryForm");
+                var newCategoryName = $("#newCategoryName");
+                var createCategoryButton = $("#createCategoryButton");
+                var cancelCategoryButton = $("#cancelCategoryButton");
+
+                addCategoryButton.click(function () {
+                    // Disable the "Add New Category" button
+                    addCategoryButton.prop("disabled", true);
+                    // Disable the category dropdown
+                    categoryDropdown.prop("disabled", true);
+                    newCategoryForm.show();
+                });
+
+                cancelCategoryButton.click(function () {
+                    // Enable the "Add New Category" button
+                    addCategoryButton.prop("disabled", false);
+                    // Enable the category dropdown
+                    categoryDropdown.prop("disabled", false);
+                    newCategoryForm.hide();
+                    newCategoryName.val("");
+                });
+
+                createCategoryButton.click(function () {
+                    var newCategory = newCategoryName.val();
+                    if (newCategory) {
+                        // Update the category dropdown
+                        var option = $("<option>", {
+                            value: newCategory,
+                            text: newCategory,
+                            selected: true
+                        });
+                        categoryDropdown.append(option);
+
+                        // Enable the "Add New Category" button
+                        addCategoryButton.prop("disabled", false);
+                        // Enable the category dropdown
+                        categoryDropdown.prop("disabled", false);
+
+                        // Reset form and hide it
+                        newCategoryForm.hide();
+                        newCategoryName.val("");
+                    }
+                });
+            });
+        </script>
+    }
+}
