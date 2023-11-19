@@ -16,7 +16,7 @@
     <WebStackScaffolding_ControllerDialogWidth>650</WebStackScaffolding_ControllerDialogWidth>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
-    <NameOfLastUsedPublishProfile>C:\Users\User\Desktop\Work\3rd Year\Semester 2\APPR6312\ST10101067 APPR6312 POE PART 1\ST10101067 APPR6312 POE PART 1\Properties\PublishProfiles\ST10101067APPR6312POEPART120230922185420 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\User\Source\Repos\APPR6312_POE\ST10101067 APPR6312 POE PART 1\Properties\PublishProfiles\ST10101067APPR6312POEPART120230922185420 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
     <WebStackScaffolding_LayoutPageFile />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

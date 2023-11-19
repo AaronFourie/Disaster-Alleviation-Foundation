@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ST10101067 APPR6312 POE PART 2", "ST10101067 APPR6312 POE PART 1\ST10101067 APPR6312 POE PART 2.csproj", "{563EDD30-218A-4FA5-9FEC-B759545130B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Alleviation Foundation System Tests", "The Alleviation Foundation System Tests\The Alleviation Foundation System Tests.csproj", "{DDD662B8-17F6-42EF-8552-083ADABB37B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{563EDD30-218A-4FA5-9FEC-B759545130B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{563EDD30-218A-4FA5-9FEC-B759545130B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{563EDD30-218A-4FA5-9FEC-B759545130B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD662B8-17F6-42EF-8552-083ADABB37B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD662B8-17F6-42EF-8552-083ADABB37B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD662B8-17F6-42EF-8552-083ADABB37B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD662B8-17F6-42EF-8552-083ADABB37B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

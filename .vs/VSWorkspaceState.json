@@ -6,8 +6,9 @@
     "\\ST10101067 APPR6312 POE PART 1\\Areas\\Identity",
     "\\ST10101067 APPR6312 POE PART 1\\Areas\\Identity\\Pages",
     "\\ST10101067 APPR6312 POE PART 1\\Controllers",
-    "\\ST10101067 APPR6312 POE PART 1\\Controllers\\Individual Account"
+    "\\ST10101067 APPR6312 POE PART 1\\Views",
+    "\\ST10101067 APPR6312 POE PART 1\\Views\\Home"
   ],
-  "SelectedNode": "\\ST10101067 APPR6312 POE PART 1\\Controllers\\Individual Account\\UserGoodsDonationsController.cs",
+  "SelectedNode": "\\ST10101067 APPR6312 POE PART 1\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

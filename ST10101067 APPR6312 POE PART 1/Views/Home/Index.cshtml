@@ -35,7 +35,121 @@
         </div>
     </div>
 </div>
+<div class="container">
+    @{
+        int totalItemCount = 0;
+        int totalMoneyCount = 0;
+        string totalMoneyAmount = ""; // Initialize total money amount
 
+        if (Model != null && Model.GoodsDonations != null)
+        {
+            foreach (var goodsDonation in Model.GoodsDonations)
+            {
+                totalItemCount += goodsDonation.ITEM_COUNT;
+            }
+        }
+
+        if (Model != null && Model.MoneyDonations != null)
+        {
+            HashSet<int> uniqueMoneyDonationIds = new HashSet<int>(Model.MoneyDonations.Select(m => m.MONEY_DONATION_ID));
+            totalMoneyCount = uniqueMoneyDonationIds.Count;
+
+            // Calculate total money amount donated
+            totalMoneyAmount = "R " + Model.MoneyDonations.Sum(m => m.AMOUNT).ToString();
+        }
+    }
+    <br />
+    <br />
+    <br />
+    <h1>Total Money Donations Recieved</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Total Number of Donations Recieved</th>
+                <th>Total Amount of Donations Revieved</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@totalMoneyCount</td>
+                <td>@totalMoneyAmount</td>
+            </tr>          
+        </tbody>
+
+    </table>
+
+
+    <h1>Total Number of Goods Recieved</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Total Goods Count</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@totalItemCount</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h1>Currently Active Disasters</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Location</th>
+                <th>Aid Type</th>
+                <th>Money Allocated</th>
+                <th>Goods Allocated</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var disaster in Model.Disasters.Where(d => d.IsActive == 1))
+            {
+                <tr>
+                    <td>@disaster.DISTATER_ID</td>
+                    <td>@disaster.STARTDATE</td>
+                    <td>@disaster.ENDDATE</td>
+                    <td>@disaster.LOCATION</td>
+                    <td>@disaster.AID_TYPE</td>
+                    <td>
+                        @{
+                            string moneyAllocated = "";
+                            // Calculate money allocated to this disaster if Model.MoneyAllocations is not null
+                            double moneyAllocatedValue = Model.MoneyAllocations != null
+                            ? Model.MoneyAllocations
+                            .Where(m => m.AidType == disaster.AID_TYPE)
+                            .Sum(m => (double)m.AllocationAmount)
+                            : 0; // Assign default value if Model.MoneyAllocations is null
+
+                            moneyAllocated = "R " + moneyAllocatedValue.ToString("N2"); // Format double to Rands (rounded to 2 decimal places)
+                        }
+                        @moneyAllocated
+                    </td>
+                    <td>
+                        @{
+                            // Calculate goods allocated to this disaster if Model.GoodsAllocations is not null
+                            int goodsAllocated = Model.GoodsAllocations != null
+                            ? Model.GoodsAllocations
+                            .Where(g => g.AidType == disaster.AID_TYPE)
+                            .Sum(g => g.ITEM_COUNT)
+                            : 0; // Assign default value if Model.GoodsAllocations is null
+                        }
+                        @goodsAllocated
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
 
 <!-- Centered content within the full-screen image -->
 
@@ -134,6 +248,4 @@
     </table>
     </div>
 }
-else
-{
-}
+
