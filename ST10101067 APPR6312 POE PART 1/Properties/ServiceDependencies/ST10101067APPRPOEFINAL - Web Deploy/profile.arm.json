@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "ST10101067APPR6312POEPART120230922185420",
+      "defaultValue": "ST10101067APPRPOEFINAL",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }
