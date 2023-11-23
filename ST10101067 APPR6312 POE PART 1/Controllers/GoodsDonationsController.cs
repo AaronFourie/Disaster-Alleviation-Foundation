@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -15,10 +16,11 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
     public class GoodsDonationsController : Controller
     {
         private readonly ApplicationDbContext _context;
-
-        public GoodsDonationsController(ApplicationDbContext context)
+        private readonly UserManager<IdentityUser> _userManager;
+        public GoodsDonationsController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: GoodsDonations
@@ -49,11 +51,20 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
 
         // GET: UserGoodsDonations/Create
         [Authorize]
-        public IActionResult Create()
+        public async Task<IActionResult> CreateAsync()
         {
+            // Get the current logged-in username
+            // Get the current logged-in user
+            var currentUser = await _userManager.GetUserAsync(User);
+
+            if (currentUser == null)
+            {
+                // Redirect to login if user not found or not authenticated
+                return RedirectToAction("Login", "Account");
+            }
             // Get the unique categories for the logged-in user, excluding "Cloths" and "Non-Perishable Foods"
             var existingCategories = _context.GoodsDonation
-                .Where(d => d.USERNAME == User.Identity.Name && d.CATEGORY != "Cloths" && d.CATEGORY != "Non-Perishable Foods")
+                .Where(d => d.USERNAME == currentUser.UserName && d.CATEGORY != "Cloths" && d.CATEGORY != "Non-Perishable Foods")
                 .Select(d => d.CATEGORY)
                 .Distinct()
                 .ToList();
@@ -88,9 +99,18 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
                 }
                 else
                 {
+                    // Get the current logged-in username
+                    // Get the current logged-in user
+                    var currentUser = await _userManager.GetUserAsync(User);
+
+                    if (currentUser == null)
+                    {
+                        // Redirect to login if user not found or not authenticated
+                        return RedirectToAction("Login", "Account");
+                    }
                     // Set DONOR to the current logged-in user's username
-                    var currentUser = User.Identity?.Name;
-                    goodsDonation.DONOR = currentUser;
+                    goodsDonation.DONOR = currentUser.UserName;
+                    
                 }
 
                 // Check if the category exists in the GoodsInventory

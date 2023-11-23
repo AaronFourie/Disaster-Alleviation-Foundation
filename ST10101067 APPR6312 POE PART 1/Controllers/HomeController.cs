@@ -20,21 +20,19 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
 
         public IActionResult Index()
         {
-            if (@User.Identity.IsAuthenticated)
-            {
-                var viewModel = new IncomingDataModel
-                {
-                    GoodsDonations = _context.GoodsDonation.ToList(),
-                    MoneyDonations = _context.MoneyDonation.ToList(),
-                    Disasters = _context.Disatser.ToList()
-                };
 
-                return View(viewModel);
-            }
-            else
+            var viewModel = new IncomingDataModel
             {
-                return View();
-            }
+                GoodsDonations = _context.GoodsDonation.ToList(),
+                MoneyDonations = _context.MoneyDonation.ToList(),
+                Disasters = _context.Disatser.ToList(),
+                GoodsAllocations = _context.GoodsAllocation.ToList(),
+                Moneys = _context.Money.ToList(),
+                MoneyAllocations = _context.MoneyAllocation.ToList(),
+            };
+
+            return View(viewModel);   
+
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

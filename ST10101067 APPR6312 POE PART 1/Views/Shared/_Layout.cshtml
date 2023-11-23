@@ -93,6 +93,24 @@
             .footer-link:hover {
                 color: purple; /* Change the link color on hover */
             }
+        /* Add the sticky class to the navbar */
+        .navbar.sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: top 0.3s;
+        }
+
+            /* Additional styles for the transition effect when the navbar becomes sticky */
+            .navbar.sticky + .p-0 {
+                padding-top: 56px; /* Adjust the padding top of the main content to prevent it from being hidden under the navbar */
+            }
+
+            /* Add a shadow to the navbar when it becomes sticky */
+            .navbar.sticky.shadow {
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
     </style>
 </head>
 <body>
@@ -152,8 +170,25 @@
     </div>
     
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap Bundle (Bootstrap JS + Popper.js) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        // Get the navbar element
+        const navbar = document.querySelector('.navbar');
+
+        // Function to toggle the 'sticky' class based on scroll position
+        function toggleStickyNavbar() {
+            if (window.scrollY > 0) {
+                navbar.classList.add('sticky', 'shadow');
+            } else {
+                navbar.classList.remove('sticky', 'shadow');
+            }
+        }
+
+        // Listen for scroll events
+        window.addEventListener('scroll', toggleStickyNavbar);
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 
 </body>

@@ -19,10 +19,12 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
     public class UserGoodsDonationsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public UserGoodsDonationsController(ApplicationDbContext context)
+        public UserGoodsDonationsController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: UserGoodsDonations
@@ -106,9 +108,19 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
                 }
                 else
                 {
-                    // Set DONOR to the current logged-in user's username
-                    var currentUser = User.Identity?.Name;
-                    goodsDonation.DONOR = currentUser;
+                    // Get the current logged-in user
+                    var currentUser = await _userManager.GetUserAsync(User);
+
+                    if (currentUser == null)
+                    {
+                        // Redirect to login if user not found or not authenticated
+                        return RedirectToAction("Login", "Account");
+                    }
+                    else
+                    {
+                        goodsDonation.DONOR = currentUser.UserName;
+                    }
+                   
                 }
 
                 // Check if the category exists in the GoodsInventory
