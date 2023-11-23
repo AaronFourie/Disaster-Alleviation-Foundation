@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,10 +14,12 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
     public class UserMoneyDonationsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public UserMoneyDonationsController(ApplicationDbContext context)
+        public UserMoneyDonationsController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         [Authorize]
@@ -67,15 +70,26 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Get the current logged-in username
-                string currentUsername = @User.Identity.Name;
+                // Get the current logged-in user
+                var currentUser = await _userManager.GetUserAsync(User);
+
+                if (currentUser == null)
+                {
+                    // Redirect to login if user not found or not authenticated
+                    return RedirectToAction("Login", "Account");
+                }
 
                 // Set the username of the donation to the current user's username
-                moneyDonation.USERNAME = currentUsername;
+                moneyDonation.USERNAME = currentUser.UserName;
 
                 if (moneyDonation.DATE < DateTime.Now.Date)
                 {
                     ModelState.AddModelError("DATE", "Date cannot be earlier than today.");
+                    return View(moneyDonation);
+                }
+                if(moneyDonation.AMOUNT == null || moneyDonation.AMOUNT == 0)
+                {
+                    ModelState.AddModelError("AMOUNT", "Amount must be more than 0.");
                     return View(moneyDonation);
                 }
 
@@ -87,8 +101,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
                 else
                 {
                     // Set DONOR to the current logged-in user's username
-                    var currentUser = User.Identity?.Name;
-                    moneyDonation.DONOR = currentUser;
+                    moneyDonation.DONOR = currentUser.UserName;
                 }
 
                 // Retrieve the existing Money entity or create a new one
