@@ -1,16 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\APPR6329 POE Tests",
+    "\\APPR6329 POE Tests\\Controller",
     "\\ST10101067 APPR6312 POE PART 1",
     "\\ST10101067 APPR6312 POE PART 1\\Controllers",
     "\\ST10101067 APPR6312 POE PART 1\\Views",
-    "\\ST10101067 APPR6312 POE PART 1\\Views\\GoodsDonations",
-    "\\TestResults\\Deploy_User 2023-11-19 23_27_29",
-    "\\TestResults\\Deploy_User 2023-11-19 23_27_29\\In",
-    "\\TestResults\\Deploy_User 2023-11-19 23_27_29\\In\\DESKTOP-5U89N6D",
-    "\\TestResults\\Deploy_User 2023-11-19 23_30_03",
-    "\\TestResults\\Deploy_User 2023-11-19 23_30_03\\In"
+    "\\ST10101067 APPR6312 POE PART 1\\Views\\GoodsDonations"
   ],
-  "SelectedNode": "\\ST10101067 APPR6312 POE PART 2.sln",
+  "SelectedNode": "\\APPR6329 POE Tests\\Controller\\GoodsDonationsControllerTests.cs",
   "PreviewInSolutionExplorer": false
 }
