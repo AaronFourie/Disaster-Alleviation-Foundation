@@ -27,7 +27,7 @@ namespace APPR6329_POE_Tests.Controller.Individual_Account
         public UserDisastersControllerTests()
         {
             var options = new DbContextOptionsBuilder<ApplicationDbContext>()
-                .UseSqlServer("Server=tcp:st10101067sv.database.windows.net,1433;Initial Catalog=ST1010167DB;Persist Security Info=False;User ID=admin123;Password=Password123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")
+              .UseInMemoryDatabase(databaseName: "TestDatabase")
                 .Options;
 
             _context = A.Fake<ApplicationDbContext>(x => x.WithArgumentsForConstructor(new object[] { options }));
