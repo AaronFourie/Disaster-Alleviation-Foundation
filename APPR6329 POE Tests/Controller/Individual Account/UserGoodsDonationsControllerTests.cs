@@ -102,6 +102,7 @@ namespace APPR6329_POE_Tests.Controller.Individual_Account
             var validGoodsDonation = new GoodsDonation
             {
                 // Populate fields with valid data
+                GOODS_DONATION_ID = 0,
                 USERNAME = "ExistingUser",
                 DATE = DateTime.Now.Date,
                 ITEM_COUNT = 4,

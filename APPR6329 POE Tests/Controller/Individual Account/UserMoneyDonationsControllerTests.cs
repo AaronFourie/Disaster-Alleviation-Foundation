@@ -100,6 +100,7 @@ namespace APPR6329_POE_Tests.Controller.Individual_Account
             {
                 // Populate fields with valid data
                 // Populate fields with invalid data
+                MONEY_DONATION_ID = 0,
                 USERNAME = "ExistingUser",
                 DATE = DateTime.Now.Date, // Start date in the past
                 AMOUNT = 400, // End date a day before the start date

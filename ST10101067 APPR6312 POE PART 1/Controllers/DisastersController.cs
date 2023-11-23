@@ -18,7 +18,6 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
         private readonly ApplicationDbContext _context;
         private readonly UserManager<IdentityUser> _userManager;
 
-
         public DisastersController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
@@ -74,10 +73,17 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
             if (ModelState.IsValid)
             {
                 // Get the current logged-in username
-                string currentUsername = User.Identity.Name;
+                // Get the current logged-in user
+                var currentUser = await _userManager.GetUserAsync(User);
+
+                if (currentUser == null)
+                {
+                    // Redirect to login if user not found or not authenticated
+                    return RedirectToAction("Login", "Account");
+                }
 
                 // Set the username of the disaster to the current user's username
-                disaster.USERNAME = currentUsername;
+                disaster.USERNAME = currentUser.UserName;
 
                 // Check if the start date is before the current date
                 if (disaster.STARTDATE < DateTime.Now.Date)
