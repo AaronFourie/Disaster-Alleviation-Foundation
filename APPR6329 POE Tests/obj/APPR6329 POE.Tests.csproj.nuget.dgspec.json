@@ -48,10 +48,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
             "FakeItEasy": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -60,9 +56,13 @@
               "target": "Package",
               "version": "[6.12.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.13, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -177,7 +177,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

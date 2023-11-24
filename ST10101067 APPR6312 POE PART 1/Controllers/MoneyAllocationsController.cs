@@ -13,14 +13,12 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
     public class MoneyAllocationsController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly UserManager<IdentityUser> _userManager;
-
         private readonly ILogger<MoneyAllocationsController> _logger;
 
-        public MoneyAllocationsController(ApplicationDbContext context, ILogger<MoneyAllocationsController> logger, UserManager<IdentityUser> userManager)
+        public MoneyAllocationsController(ApplicationDbContext context, ILogger<MoneyAllocationsController> logger)
         {
             _context = context;
-            _logger = logger;
+
         }
 
         public async Task<IActionResult> Index()

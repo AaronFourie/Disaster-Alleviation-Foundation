@@ -11,12 +11,10 @@ using System.Threading.Tasks;
 public class GoodsAllocationsController : Controller
 {
     private readonly ApplicationDbContext _context;
-    private readonly UserManager<IdentityUser> _userManager;
 
-    public GoodsAllocationsController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
+    public GoodsAllocationsController(ApplicationDbContext context)
     {
         _context = context;
-        _userManager = userManager;
     }
 
     public async Task<IActionResult> Index()

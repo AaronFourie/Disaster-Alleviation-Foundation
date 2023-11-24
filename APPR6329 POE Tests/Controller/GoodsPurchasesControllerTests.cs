@@ -13,10 +13,6 @@ namespace APPR6329_POE_Tests.Controller
         private ApplicationDbContext _context;
         private GoodsPurchasesController _goodsPurchasesController;
 
-        public GoodsPurchasesControllerTests()
-        {
-
-        }
     }
 
 }

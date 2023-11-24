@@ -18,12 +18,10 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
     public class MoneyDonationsController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly UserManager<IdentityUser> _userManager;
 
-        public MoneyDonationsController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
+        public MoneyDonationsController(ApplicationDbContext context)
         {
             _context = context;
-            _userManager = userManager;
         }
 
         // GET: MoneyDonations
@@ -67,7 +65,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
             {
                 // Get the current logged-in username
                 // Get the current logged-in user
-                var currentUser = await _userManager.GetUserAsync(User);
+                var currentUser = User.Identity.Name;
 
                 if (currentUser == null)
                 {
@@ -75,7 +73,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
                     return RedirectToAction("Login", "Account");
                 }
                 // Set the username of the donation to the current user's username
-                moneyDonation.USERNAME = currentUser.UserName;
+                moneyDonation.USERNAME = currentUser;
 
                 if (moneyDonation.DATE < DateTime.Now.Date)
                 {
@@ -91,7 +89,7 @@ namespace ST10101067_APPR6312_POE_PART_2.Controllers
                 else
                 {
                     // Set DONOR to the current logged-in user's username
-                    moneyDonation.DONOR = currentUser.UserName;
+                    moneyDonation.DONOR = currentUser;
                 }
 
                 // Retrieve the existing Money entity or create a new one

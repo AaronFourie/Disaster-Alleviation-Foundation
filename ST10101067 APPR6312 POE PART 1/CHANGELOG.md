@@ -2,6 +2,42 @@
 
 ### Added
 
+- publish changes after merge
+- suo changes
+- jes
+- testlog update
+- suo update new+slnx
+- final commit
+- suo update
+- suo update
+- testlog update after merge
+- Merge branch 'POE'
+- suo update
+- update 4 after merge
+- update
+- merge final update
+- Merge branch 'POE' of https://github.com/AaronFourie/APPR6312_POE into POE
+- merge
+- Merge pull request #5 from AaronFourie/main
+- POE to main merge change fix 2
+- miscellanious file updates
+- updates after POE features
+- gg
+- final changes
+- gg
+- changes
+- changes 2
+- updates
+- updates from merges
+- merge POE to main
+- updates after POE
+- suo update
+- Individual Create Controller Tests completed
+- poe part 3 features
+- BRANCH CHANGES
+- NEW CHANGES
+- Final POE Features
+- changelog generator and log generated
 - Merge branch 'main' of https://github.com/AaronFourie/APPR6312_POE
 - Merge pull request #2 from AaronFourie/Part-2
 - Final merge versioning changes
@@ -25,8 +61,22 @@
 - Design time build status:Added
 - Part 1
 
+### Fixed
+
+- POE branch merge conflicts
+- bin and version
+- bin and versioning
+
 ### Updated
 
+- slnx + testlog
+- testlog
+- tests
+- Tests
+- tests
+- file_index
+- file index
+- file_index
 - sql lite
 - part 2 versioning
 - changes
