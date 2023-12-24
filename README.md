@@ -5,6 +5,8 @@ This is a varsity assignment which stores source code of a Web App for a hypothe
 
 The web app is developed in ASP DotNet Core MVC using Bootstrap5.3.2 and published using Azure.
 
+Makes use of Azure SQL Database for data persistence
+
 Azure devops project link: https://dev.azure.com/ST10101067/Disaster%20Alleviation%20Foundation%20System 
 
 This web app is designed to aid disaster alleviation through donating money or goods as well as logging disasters to the company. 
