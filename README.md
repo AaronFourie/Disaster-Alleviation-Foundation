@@ -55,10 +55,16 @@ Publically accessable content
 --------------------------------------------------------------------------------------------------------------------------------------
 Snapshots
 ------
-![Admin Homepage hero](/images/img.jpg "Admin Homepage hero"))
-![Homepage continued](/images/img.jpg "Homepage continued"))
-![Incoming statistics](/images/img.jpg "Incoming statistics"))
-![Login](/images/img.jpg "OLogin"))
-![Goods allocation](/images/img.jpg "Goods allocation"))
-![Money_allocation](/images/img.jpg "Money_allocation"))
-![Azure SQL Database Query editor](/images/img.jpg "Azure SQL Database Query editor"))
+![Admin Homepage hero](/ST10101067_APPR6312_POE_PART_1/wwwroot/images/APPR_images/Home_hero.png "Admin Homepage hero"))
+
+![Homepage continued](/ST10101067_APPR6312_POE_PART_1/wwwroot/images/APPR_images/Home.png "Homepage continued"))
+
+![Incoming statistics](/ST10101067_APPR6312_POE_PART_1/wwwroot/images/APPR_images/incoming_statistics.png "Incoming statistics"))
+
+![Login](/ST10101067_APPR6312_POE_PART_1/wwwroot/images/APPR_images/login.png "Login"))
+
+![Goods allocation](/ST10101067_APPR6312_POE_PART_1/wwwroot/images/APPR_images/googs_allocation.png "Goods allocation"))
+
+![Money_allocation](/ST10101067_APPR6312_POE_PART_1/wwwroot/images/APPR_images/money_allocation.png "Money_allocation"))
+
+![Azure SQL Database Query editor](/ST10101067_APPR6312_POE_PART_1/wwwroot/images/APPR_images/Azure_SQL_Query_editor.png "Azure SQL Database Query editor"))
