@@ -3,8 +3,7 @@
 
 This is a varsity assignment which stores source code of a Web App for a hypothetical company called Disaster Alleviation Foundation.
 
-The web app is developed in ASP DotNet Core MVC using Bootstrap5.3.2 and published using Azure at this link: 
-https://st10101067appr6312poepart120230922185420.azurewebsites.net
+The web app is developed in ASP DotNet Core MVC using Bootstrap5.3.2 and published using Azure.
 
 Azure devops project link: https://dev.azure.com/ST10101067/Disaster%20Alleviation%20Foundation%20System 
 
