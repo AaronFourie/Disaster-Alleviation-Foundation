@@ -10,48 +10,20 @@ Azure devops project link: https://dev.azure.com/ST10101067/Disaster%20Alleviati
 This web app is designed to aid disaster alleviation through donating money or goods as well as logging disasters to the company. 
 
 -------------------------------------------------------------------------------------------------------------------------------------
-Normal users can: 
------------------
 
--> Login/Signup and Logout
-
--> Donate goods
-
--> Donate money
-
--> Create/Log disasters
+WPF App with SQL Database Guide
+-------------------------------
+[WPF App with SQL Database.pdf](https://github.com/AaronFourie/ASP.Net-Core-MVC-Disaster-Alleviation-Foundation-Web-App/files/13762654/WPF.App.with.SQL.Database.pdf)
 
 -------------------------------------------------------------------------------------------------------------------------------------
-Disatser Alleviation employee admins can:
------------------------------------------
 
--> Admin Login/Signup and Logout
+ASP.Net Core Web App (MVC) using Individual Accounts Guide
+----------------------------------------------------------
 
--> Donate goods
+[ASP.Net Core Web App (MVC) using Individual Accounts.pdf](https://github.com/AaronFourie/ASP.Net-Core-MVC-Disaster-Alleviation-Foundation-Web-App/files/13762655/ASP.Net.Core.Web.App.MVC.using.Individual.Accounts.pdf)
 
--> Donate money
+-------------------------------------------------------------------------------------------------------------------------------------
 
--> Create/Log disasters
-
--> Edit, view details, and delete recorded data
-
--> Allocate money to an active disaster
-
--> Allocate goods to an active disaster
-
--> Purchase goods using available money
-
---------------------------------------------------------------------------------------------------------------------------------------
-Publically accessable content
------------------------------
-
--> Total goods donations amount and count
-
--> Total money donations amount
-
--> Active disasters showing location, aid type, money donated and money allocated 
-
---------------------------------------------------------------------------------------------------------------------------------------
 Snapshots
 ------
 ![Home_hero](https://github.com/AaronFourie/APPR6312_POE/assets/103949239/92c0b8da-5ecd-4ba8-9e7a-d4b3fd0dc118)
