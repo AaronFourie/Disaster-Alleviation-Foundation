@@ -65,6 +65,6 @@ Snapshots
 
 ![money_allocation](https://github.com/AaronFourie/APPR6312_POE/assets/103949239/1ef3c27e-b6fd-423d-9748-81a3c693dbeb)
 
-![Azure_SQL_Query_editor](https://github.com/AaronFourie/APPR6312_POE/assets/103949239/e92df15e-858b-4df0-a68c-99fde8e9db17)
-
 ![googs_allocation](https://github.com/AaronFourie/APPR6312_POE/assets/103949239/1bda2c09-7113-4e20-ab33-5d98bc0950e5)
+
+![Azure_SQL_Query_editor](https://github.com/AaronFourie/APPR6312_POE/assets/103949239/e92df15e-858b-4df0-a68c-99fde8e9db17)
