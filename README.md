@@ -1,5 +1,6 @@
 # APPR6312_POE
 -------------------------------------------------------------------------------------------------------------------------------------
+
 This is a varsity assignment which stores source code of a Web App for a hypothetical company called Disaster Alleviation Foundation.
 
 The web app is developed using ASP DotNet Core MVC and published using Azure at this link: 
@@ -18,6 +19,7 @@ Normal users can:
 -> Donate money
 
 -> Create/Log disasters
+
 -------------------------------------------------------------------------------------------------------------------------------------
 Disatser Alleviation employee admins can:
 -----------------------------------------
@@ -41,6 +43,7 @@ Disatser Alleviation employee admins can:
 --------------------------------------------------------------------------------------------------------------------------------------
 Publically accessable content
 -----------------------------
+
 -> Total goods donations amount and count
 
 -> Total money donations amount
