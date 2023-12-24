@@ -51,3 +51,14 @@ Publically accessable content
 -> Total money donations amount
 
 -> active disasters showing location, aid type, money donated and money allocated 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Snapshots
+------
+![Admin Homepage hero](/images/img.jpg "Admin Homepage hero"))
+![Homepage continued](/images/img.jpg "Homepage continued"))
+![Incoming statistics](/images/img.jpg "Incoming statistics"))
+![Login](/images/img.jpg "OLogin"))
+![Goods allocation](/images/img.jpg "Goods allocation"))
+![Money_allocation](/images/img.jpg "Money_allocation"))
+![Azure SQL Database Query editor](/images/img.jpg "Azure SQL Database Query editor"))
