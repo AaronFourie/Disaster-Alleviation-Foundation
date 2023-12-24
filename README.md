@@ -55,7 +55,7 @@ Publically accessable content
 --------------------------------------------------------------------------------------------------------------------------------------
 Snapshots
 ------
-![Admin Homepage hero](/ST10101067_APPR6312_POE_PART_1/wwwroot/images/APPR_images/Home_hero.png "Admin Homepage hero"))
+![Admin Homepage hero](/ST10101067 APPR6312 POE PART 1/wwwroot/images/APPR images/Home_hero.png "Admin Homepage hero"))
 
 ![Homepage continued](/ST10101067_APPR6312_POE_PART_1/wwwroot/images/APPR_images/Home.png "Homepage continued"))
 
