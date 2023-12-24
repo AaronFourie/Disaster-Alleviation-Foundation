@@ -1,4 +1,4 @@
-# APPR6312_POE
+# Disaster Alleviation Foundation MVC Web App
 -------------------------------------------------------------------------------------------------------------------------------------
 
 This is a varsity assignment which stores source code of a Web App for a hypothetical company called Disaster Alleviation Foundation.
