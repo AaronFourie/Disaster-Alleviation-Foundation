@@ -11,12 +11,6 @@ This web app is designed to aid disaster alleviation through donating money or g
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-WPF App with SQL Database Guide
--------------------------------
-[WPF App with SQL Database.pdf](https://github.com/AaronFourie/ASP.Net-Core-MVC-Disaster-Alleviation-Foundation-Web-App/files/13762654/WPF.App.with.SQL.Database.pdf)
-
--------------------------------------------------------------------------------------------------------------------------------------
-
 ASP.Net Core Web App (MVC) using Individual Accounts Guide
 ----------------------------------------------------------
 
