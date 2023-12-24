@@ -49,7 +49,7 @@ Publically accessable content
 
 -> Total money donations amount
 
--> active disasters showing location, aid type, money donated and money allocated 
+-> Active disasters showing location, aid type, money donated and money allocated 
 
 --------------------------------------------------------------------------------------------------------------------------------------
 Snapshots
