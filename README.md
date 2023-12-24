@@ -1,6 +1,7 @@
 # APPR6312_POE
-This is a varsity assignment which stores source code of a Web App for a hypothetical company callled Disaster Alleviation Foundation.
-The web app is developed using ASP DotNet Core MVC and published using Azure at this link: https://st10101067appr6312poepart120230922185420.azurewebsites.net 
+This is a varsity assignment which stores source code of a Web App for a hypothetical company called Disaster Alleviation Foundation.
+The web app is developed using ASP DotNet Core MVC and published using Azure at this link: 
+https://st10101067appr6312poepart120230922185420.azurewebsites.net 
 This web app is designed to aid disaster alleviation through donating money or goods as well as logging disasters to the company. 
 
 Normal users can: 
