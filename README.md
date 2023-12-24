@@ -6,8 +6,10 @@ The web app is developed using ASP DotNet Core MVC and published using Azure at 
 https://st10101067appr6312poepart120230922185420.azurewebsites.net
 
 This web app is designed to aid disaster alleviation through donating money or goods as well as logging disasters to the company. 
+
 -------------------------------------------------------------------------------------------------------------------------------------
 Normal users can: 
+-----------------
 
 -> Login/Signup and Logout
 
@@ -18,6 +20,7 @@ Normal users can:
 -> Create/Log disasters
 -------------------------------------------------------------------------------------------------------------------------------------
 Disatser Alleviation employee admins can:
+-----------------------------------------
 
 -> Admin Login/Signup and Logout
 
@@ -34,9 +37,10 @@ Disatser Alleviation employee admins can:
 -> Allocate goods to an active disaster
 
 -> Purchase goods using available money
+
 --------------------------------------------------------------------------------------------------------------------------------------
 Publically accessable content
-
+-----------------------------
 -> Total goods donations amount and count
 
 -> Total money donations amount
